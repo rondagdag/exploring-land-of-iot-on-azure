@@ -1,0 +1,8 @@
+POST https://simpler-way.azureiotcentral.com/api/devices/mydevice/commands/DisplayText?api-version=2022-07-31
+Content-Type: application/json
+Authorization: SharedAccessSignature sr=
+
+{
+ "request": "Hello World!"
+}
+
